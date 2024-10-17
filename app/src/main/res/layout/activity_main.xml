@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="431dp"
+        android:src="@drawable/palta" />
+
+    <VideoView
+        android:id="@+id/videoview"
+        android:layout_width="387dp"
+        android:layout_height="194dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="165dp" />
+
+    <Button
+        android:id="@+id/playVideoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="64dp"
+        android:text="Video" />
+
+    <Button
+        android:id="@+id/PlayAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="297dp"
+        android:layout_marginBottom="66dp"
+        android:text="Audio" />
+
+    <Button
+        android:id="@+id/animateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="64dp"
+        android:text="Animación" />
+
+
+</RelativeLayout>
